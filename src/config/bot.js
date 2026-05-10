@@ -11,7 +11,7 @@ export const botConfig = {
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
   presence: {
-    // Current online state shown on Discord.
+    // Current idle state shown on Discord.
     status: "idle",
 
     // Activity lines shown under the bot name.
@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Avi's helper",
+        name: "Overworked (⇀‸↼‶)",
         // Activity type number (0 = Playing).
         type: 0, 
       },
